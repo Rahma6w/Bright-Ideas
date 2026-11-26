@@ -1,0 +1,36 @@
+﻿# Java / Spring Boot
+**/target/
+*.class
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+**/.idea/
+
+# React / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Flutter
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local uploads
+backend/uploads/
+
+# Local databases
+*.mv.db
+*.trace.db
+
+# Operating system
+.DS_Store
+Thumbs.db
